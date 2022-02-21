@@ -1,0 +1,57 @@
+
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#students{
+    width: 500px;
+    height: 100%;
+    border: 2px solid black;
+}
+    #staffs{
+width: 500px;
+    height: 100%;
+    border: 2px solid black;
+    }
+
+div{
+    padding:20px  10px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100px;
+
+}
+input[type=text],
+ input[type=number],
+ input[type=date]
+     {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid rgb(73, 70, 70);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+
+
+}
+input[type=submit]{
+    height: 40px;
+}
+@media(max-width:550px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    #students,#staffs{
+    width: 300px;
+    height: 100%;
+    }
+#staffs{
+    padding-top: 120px;
+}
+}

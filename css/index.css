@@ -1,0 +1,75 @@
+
+body {
+background-image:linear-gradient(#0000009b, #0000009b),  url(/img/pexels-photo-236730.jpeg);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+p{
+    font-size: 15px;
+    font-weight: inherit;
+}
+input[type=text],
+ input[type=password]
+     {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid rgb(73, 70, 70);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+    width:250px;
+
+}
+.wa{
+    text-align: center;
+}
+#submit{
+    width: 80px;
+    height:30px;
+    
+}
+#submit:hover{
+    border-color: blue;
+}
+.two {
+  background-color:rgb(255, 255, 255);
+  height: 480px;
+  width: 280px;
+  border-radius: 20px;
+  position: fixed;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#img{
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+.we {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.we p {
+  width: 200px;
+  margin-top: 25px;
+}
+
+.forget{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+@media(max-width:350px){
+  
+}
+

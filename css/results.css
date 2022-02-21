@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 3px 1px 1px rgb(247, 240, 240);
+}
+.search {
+  display: flex;
+}
+input[type=search
+] {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-image: url('/img/search.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+  padding: 12px 20px 12px 40px;
+  font-size:15px;
+  box-shadow: 00px 1px 1px 0px red;
+}
+input:focus{
+  width: 100%;
+}

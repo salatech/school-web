@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 0.5 px 1px rgb(255, 0, 0);
+  
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-size: 30px;
+  background-color: #eee;
+}
+.search {
+  display: flex;
+}
+input {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-image: url('/img/search.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+  padding: 12px 20px 12px 40px;
+  font-size:15px;
+  box-shadow: 00px 1px 1px 0px red;
+}
+input:focus{
+  width: 100%;
+}
+.staff_page, .student_page{
+    display: flex;
+    max-width: 100vw;
+  height :100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+            
+
+}
+#card { box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            height: 550px;
+            text-align: center;
+            font-family: arial;
+            margin:5px;
+
+        }
+
+        #qualification{
+            color: grey;
+            font-size: 15px;
+        }
+        #contact{
+            color: grey;
+            font-size: 15px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+      

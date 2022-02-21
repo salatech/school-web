@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <!--<title> Responsiive Admin Dashboard |</title>-->
+  <link rel="stylesheet" href="css/home.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME
+  </title>
+</head>
+
+<body
+
+
+
+   <!-- side nav -->
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="img/weslay.png" alt="" width="50px">
+      <span class="logo_name">Wesleycollege</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="admin.html">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Admin</span>
+        </a>
+      </li>
+      <li>
+        <a href="staff.html">
+          <i class='bx bx-user-plus'></i>
+          <span class="links_name">Staffs</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="student.html">
+          <i class='bx bx-user-plus'></i>
+          <span class="links_name">Students</span>
+        </a>
+      </li>
+      <li>
+        <a href="mhostel.html">
+          <i class='bx bxs-home'></i>
+          <span class="links_name">Hostel
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="class.html">
+          <i class='bx bxs-school'></i>
+          <span class="links_name">Classes
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="http://" target="_blank" rel="noopener noreferrer">
+          <i class='bx bx-food-menu'></i>
+          <span class="links_name">Kitchen</span>
+        </a>
+      </li>
+      <li>
+      <a href="notification.html">
+          <i class='bx bx-notification'></i>
+          <span class="links_name">Notifications</span>
+        </a>
+      </li> 
+      <li class="log_out">
+        <a href="index.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <!-- top nav -->
+
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      
+     
+      <div class="dd">
+    <span ><i class='bx bxs-credit-card-front'></i></i></span><span class="bursary">Bursary</span>
+        <div id="myDropdown"  class="dd-content">
+          <ul>
+            
+            <li>
+              
+              <p><a href="ledger.html">
+                Ledger</a></p>
+            </li>
+            <li>
+              
+              <p><a href="payment.html">
+                Payment Items</a></p>
+            </li>
+          
+            <li>
+              
+              <p><a href="payment.html">Payment Method</a></p>
+            </li>
+            <li>
+              <li>
+              
+                <p>Nullify Direct Payment</p>
+              </li>
+              <li>
+              
+                <p>Finance Prefrences</p>
+              </li>
+              <li>
+              
+                <p>Parse Tuttion Fees</p>
+              </li>
+              <li>
+              
+                <p>Parse Tutiton Balance</p>
+              </li>
+              <li>
+              
+                <p>Generate School Bills</p>
+              </li>
+
+              <p>Finance Reports</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dd">
+        <span><i class='bx bxs-school'></i></i></span><span class="academics">Academics</span>
+        <div class="dd-content">
+          <ul>
+            <li>
+      
+              <p>Edit Results</p>
+            </li>
+            <li>
+      
+              <p>View Results</p>
+            </li>
+      
+            <li>
+      
+              <p><a href="broadsheet.html">Broadsheet</a> </p>
+            </li>
+            <li>
+      
+              <p> <a href="subjects.html">Subjects</a> </p>
+            </li>
+      
+            <li>
+      
+              <p>Set Grade and Remarks</p>
+            </li>
+            <li>
+      
+      
+              <p>Promotions</p>
+            </li>
+      
+          </ul>
+        </div>
+      </div>
+      <div class="profile-details"><a href="admin.html">
+        <img src="img/cat.jpeg" alt=""></a>
+        <span class="admin_name">MR TAYO</span>
+      </div>
+    </nav>
+    <!-- statistic of students and staff -->
+    <div class="home-content">
+      <div class="overview-boxes">
+        <!--student statistics box-->
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Active Students</div>
+            <div class="number"></div>
+            <div class="addbtn"><a href="addnew.html"> <button style="width: 100px"> Add</button></a></div>
+          </div>
+
+        </div>
+        <!--staff ststistics boxes-->
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Active staffs</div>
+            <div class="number">8734</div>
+            <div class="addbtn"><a href="addnew.html">  <button style="width: 100px"> Add</button></a></div>
+
+          </div>
+
+        </div>
+        <!--freshers box-->
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">New Intakes</div>
+            <div class="number"></div>
+            <div class="addbtn"><a href="addnew.html"> <button style="width: 100px"> Add</button></a></div>
+          </div>
+
+        </div>
+        <!--stalites box-->
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">stalites</div>
+            <div class="number"></div>
+            <div class="addbtn"><a href="addnew.html"> <button style="width: 100px"> Add</button></a></div>
+          </div>
+
+        </div>
+      </div>
+      <!--management boxes where hostel, kitchen table and class can be allocated to students-->
+      <div class="management-boxes">
+        <!--hostel management-->
+        <div class="boxes">
+          <div class="hostel_management">
+            <div>
+              <p>Hostel Registration</p>
+            </div>
+            <div class="hostel_allocator">
+              <form action="">
+                <div>
+                  <input type="text" placeholder="Enter full name">
+                </div>
+                <div>
+                  <input type="text" placeholder="Enter class">
+                </div>
+
+                <div>
+                  <select name="" id="">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="">
+                    <option value="">Dormitory A</option>
+                    <option value="">Dormitory B</option>
+                    <option value="">Dormitory C</option>
+                    <option value="">Dormitory D</option>
+                    <option value="">Dormitory E</option>
+                    <option value="">Dormitory F</option>
+                    <option value="">Varsity A</option>
+                    <option value="">Varsity B</option>
+                    <option value="">ETF</option>
+                    <option value="">Queen villa</option>
+                    <option value="">Princess villa</option>
+                    <option value="">Dinning villa</option>
+                    
+                  </select>
+                </div>
+                <input type="submit" value="Allocate hostel">
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <!--kitchen management-->
+        <div class=" boxes">
+          <div class="hostel_management">
+            <div>
+              <p>Kitchen Registration</p>
+            </div>
+            <div class="hostel_allocator">
+              <form action="">
+                <div>
+                  <input type="text" placeholder="Enter full name">
+                </div>
+
+                <div>
+                  <select name="" id="">
+                    <option value="">sss 1</option>
+                    <option value="">sss 2</option>
+                    <option value="">sss 3</option>
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="">
+                    <option value="">Hall one</option>
+                    <option value="">Hall two</option>
+                    <option value="">Hall three</option>
+                    <option value="">Hall four</option>
+
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                  </select>
+                </div>
+                <input type="submit" value="Allocate kitchen">
+              </form>
+            </div>
+
+
+
+
+          </div>
+        </div>
+        <!--class managemnt-->
+        <div class=" boxes">
+          <div class="hostel_management">
+            <div>
+              <p>Class Registration</p>
+            </div>
+            <div class="hostel_allocator">
+              <form action="">
+                <div>
+                  <input type="text" placeholder="Enter full name">
+                </div>
+                <div>
+                  <input type="text" placeholder="Reg number">
+                </div>
+
+                <div>
+                  <select name="" id="">
+                    <option value="">sss1</option>
+                    <option value="">sss3</option>
+                  </select>
+                </div>
+                <div>
+                  <select name="" id="">
+                    <option value="">A</option>
+                    <option value=""> B</option>
+                    <option value=""> C</option>
+                    <option value="">D</option>
+                    <option value=""> E</option>
+                    <option value=""> F</option>
+
+                  </select>
+                </div>
+                <input type="submit" value="Allocate class">
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+  </section>
+  <section>
+    <div>
+      <script>
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".sidebarBtn");
+        sidebarBtn.onclick = function () {
+          sidebar.classList.toggle("active");
+          if (sidebar.classList.contains("active")) {
+            sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+          } else
+            sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+        }
+
+      </script>
+    </div>
+  </section>
+  <section>
+
+</body>
+
+</html>

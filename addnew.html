@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add new Students</title>
+    <link rel="stylesheet" href="css/new.css">
+</head>
+<body>
+    <section>
+    <div id="students">
+    <form action="">
+       <div>
+        <img src="" alt="" id="result" />
+        <input type="file" id="demo" onchange="readFile();" /></div>
+        <script type="text/javascript">
+            function readFile() {
+                var reader = new FileReader();
+                var file = document.getElementById('demo').files[0];
+
+                reader.onload = function (e) {
+                    document.getElementById('result').src = e.target.result;
+                }
+
+                reader.readAsDataURL(file);
+            }
+        </script>
+
+       <div><label>Full Name</label>
+    <input type="text" placeholder="Enter full name"></div>
+
+
+       <div><label>Admission Number</label>
+    <input type="number" placeholder="Enter admission number"></div>
+
+
+       <div><label for>Next of kin</label>
+    <input type="text" placeholder="Enter next of kin full name"></div>
+
+
+        <div><label> Date of Birth</label>
+        <input type="date"></div>
+
+
+        <div><label>Contact</label>
+        <input type="text"></div>
+       
+        <div><input type="submit"></div>
+    </form>
+    </div> <br>
+
+    <div id="staffs">
+        <form action="">
+<div>
+    <img src="" alt="" id="result" />
+    <input type="file" id="demo" onchange="readFile();" /></div>
+<script type="text/javascript">
+    function readFile() {
+        var reader = new FileReader();
+        var file = document.getElementById('demo').files[0];
+
+        reader.onload = function (e) {
+            document.getElementById('result').src = e.target.result;
+        }
+
+        reader.readAsDataURL(file);
+    }
+</script>
+
+<div>
+    
+            <div><label>Full Name</label>
+                <input type="text" placeholder="Enter full name"></div>
+    
+    
+            <div><label>Qualification</label>
+            <input type="text" placeholder="Enter your qualification"></div>
+    
+    
+            <div><label for>Schools</label>
+            <input type="text" placeholder="Enter your institutions here"></div>
+                <div><label for>Depatment</label>
+                    <input type="text" placeholder=""></div>
+    
+            <div><label> Date of Birth</label>
+                <input type="date"></div>
+    
+    
+            <div><label>Contact</label>
+                <input type="text"></div>
+    
+            <div><input type="submit"></div>
+        </form>
+    </div>
+   
+    </section>
+</body>
+</html>
